@@ -134,7 +134,7 @@ Os operadores genéticos foram criados a partir da descrição do SGE do paper, 
 
 A implementação do algoritmo evolucionário foi feita em uma classe, em que a população é gerada, avaliada e em que então os operadores são aplicados para a criação da próxima geração. A classe também possui parâmetros para facilitar a avaliação e teste de diferentes parâmetros do modelo e *backdoors* para a recuperação dos dados da evolução gerada, incluindo *fitness* média, máxima e mínima, *fitness* de teste, número de indivíduos mutados, reproduzidos e com *crossover* de cada geração e o número de indivíduos melhores do que os pais depois de um dos operadores aplicados.
 
-![](/home/ptcar/Pictures/Screenshot from 2021-02-07 17-09-56.png)
+![workflow](./graphs/workflow.png)
 
 A classe também imprime na tela o progresso corrente do algoritmo, e os dados atuais de *fitness* e outros metadados.
 
@@ -154,7 +154,7 @@ Para avaliar o impacto do tamanho da população, fiz testes com população de 
 
 ![100popglassmanual](./graphs/100popglassmanual.png)
 
-![500popglassmanual](./TP1/graphs/500popglassmanual.png)
+![500popglassmanual](./graphs/500popglassmanual.png)
 
 Apesar de a análise não possuir muita validez estatística dado o número pequeno de repetições, podemos dizer que o impacto do tamanho da popualção foi perceptível quando passamos de 30 indivíduos para 100 indivíduos, provavelmente um indício de um espaço pequeno de busca com uma população tão pequena.
 
